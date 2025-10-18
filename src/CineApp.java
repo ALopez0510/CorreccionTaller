@@ -33,10 +33,6 @@ public class CineApp extends JFrame {
 
     public CineApp() {
 
-        comboBox1.addItem("XMEN");
-        comboBox1.addItem("MARIO");
-        comboBox1.addItem("BATMAN");
-
         COMPRARButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
